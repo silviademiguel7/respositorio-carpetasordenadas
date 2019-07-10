@@ -1,0 +1,27 @@
+@import 'core/_variables.scss';
+@import 'core/mixins';
+@import 'components/_tipography';
+@import 'layout/_header.scss';
+@import 'components/_menu.scss';
+@import 'layout/_main.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /*font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;*/
+  background-color: $color-bg;
+  color:$color-hd;
+  font-weight: 400;
+  min-height: 100vh;
+}
+
+/* HEADER */
+
+/* menu */
+
+/* MAIN */

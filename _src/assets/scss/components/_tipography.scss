@@ -1,0 +1,18 @@
+.font{
+  font-family: 'Rubik', sans-serif;}
+.txt-md{
+  font-size: 16px;
+  line-height: 1.4;
+}
+.txt-up{
+  text-transform: uppercase;
+}
+.txt-deco{
+  text-decoration: none;}
+.txt-lg{
+  font-size: 30px;}
+.txt-xl {
+  @media all and (min-width:768px){
+    font-size: 40px;
+  }
+  }
